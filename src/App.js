@@ -1,11 +1,14 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
-import FAQ from './components/faq'
-
+import FAQ from './components/Faq'
 
 function App() {
+
   return (
-    <FAQ/>
+    <div className='app'>
+      <FAQ />
+    </div>
   );
 }
 
